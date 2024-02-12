@@ -1,7 +1,7 @@
 <?php
 
 // Check If form submitted, insert form data into users table.
-if (isset($_POST['submit'])) {
+if (isset($_POST['simpan_data'])) {
     $nama_prodi = $_POST['nama_prodi'];
     // include database connection file
     require('../koneksi.php');

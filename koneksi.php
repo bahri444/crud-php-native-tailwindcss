@@ -1,7 +1,7 @@
 <?php
-$conn =  mysqli_connect("localhost", "root", "", "kampus");
+$conn = mysqli_connect("localhost", "root", "", "kampus");
 // if ($conn == true) {
-//     echo "konek ke database berhasil";
+//     echo "berhasil terhubung ke database";
 // } else {
-//     echo "konek ke database gagal";
+//     echo "gagal terhubung ke database";
 // }
